@@ -60,7 +60,7 @@ void motor1Fctn(boolean direccion)
     posMotor1 += 1;
     motor1.write(posMotor1);
   }
-  if(posMotor1>0 & !direccion)
+  if(posMotor1>10 & !direccion)
   {
     posMotor1 -=  1;
     motor1.write(posMotor1);
@@ -79,7 +79,7 @@ void motor2Fctn(boolean direccion)
     posMotor2+=1;
     motor2.write(posMotor2);
   }
-  if(posMotor2>0 & !direccion)
+  if(posMotor2>10 & !direccion)
   {
     posMotor2-=1;
     motor2.write(posMotor2);
@@ -98,7 +98,7 @@ void motor3Fctn(boolean direccion)
     posMotor3+=1;
     motor3.write(posMotor3);
   }
-  if(posMotor3>0 & !direccion)
+  if(posMotor3>10 & !direccion)
   {
     posMotor3-=1;
     motor3.write(posMotor3);
@@ -117,7 +117,7 @@ void motor4Fctn(boolean direccion)
     posMotor4+=1;
     motor4.write(posMotor4);
   }
-  if(posMotor4>0 & !direccion)
+  if(posMotor4>10 & !direccion)
   {
     posMotor4-=1;
     motor4.write(posMotor4);
